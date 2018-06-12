@@ -6,7 +6,8 @@ $data = $page->siblings();
 
 $json = array();
 
-$json['data']  = array();
+$json['name']  = "cercles_thecamp";
+$json['children']  = array();
 $json['params']  = array();
 
 $i = 0;
@@ -26,7 +27,7 @@ foreach($data as $article) {
     );
   }
 
-  $json['data'][] = array(
+  $json['children'][] = array(
     'name' => (string)$article->title(),
     'size' => '200',
     'text'  => (string)$article->text(),
@@ -34,8 +35,8 @@ foreach($data as $article) {
   );
 
   // this cleans up JSONS code so there is no empty entries inside objects
-  $cleanData = array_filter($json['data'][$i]);
-  $json['data'][$i] = $cleanData;
+  $cleanData = array_filter($json['children'][$i]);
+  $json['children'][$i] = $cleanData;
   $i++;
 
 $foo = $json['params'];
