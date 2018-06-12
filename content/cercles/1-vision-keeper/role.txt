@@ -23,3 +23,11 @@ Perimetre:
 
 - Board de gouvernance et présidence
 - Team spirit sur les marqueurs de l’ADN thecamp
+
+----
+
+People: 
+
+- 
+  staff: nadia
+  job: ""
