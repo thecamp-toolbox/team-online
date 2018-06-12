@@ -1,0 +1,32 @@
+Title: Ressourerie
+
+----
+
+Text: 
+
+1. Développer des modules, contenus et outils en cohérence avec la mission de thecamp et la programmation + originaux à thecamp
+2. Rechercher, agencer et opérer (faciliter ou animer) les modules
+3. Outiller et / ou assurer une documentation des projets, modules et outils
+4. Définir et opérer une stratégie de communs
+5. Diffuser (facilitation, formation, autonomisation) les MCO
+6. Valoriser notamment financièrement des MCO
+7. Coordonner une activité de veille collaborative
+
+----
+
+Lead: solene
+
+----
+
+But: Nous développons, documentons, facilitons, diffusons et valorisons des modules, outils et contenus (MCO) pour l’écosystème, les projets et la programmatique de thecamp.
+
+----
+
+Perimetre: 
+
+- Module design : learning, co- inno, experience, activités
+- Aide à la documentation des Projets, modules, outils (soutien du Lab)
+- Gestion des Feedbacks modules / contenus VS feedback parcours campeurs (lieu vivant front)
+- Développement d’une expertise métier facilitation méthodo (en soutien du humanagement)
+- Facilitation d’ateliers / modules VS PM (programmatique)
+- Point de contact fablab et des partenaires de Modules (facilitateur, etc.)

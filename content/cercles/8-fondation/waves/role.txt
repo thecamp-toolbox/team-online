@@ -1,0 +1,41 @@
+Prevnext: 
+
+----
+
+Title: Waves
+
+----
+
+Lead: marina
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: jeanne
+  job: >
+    stagiaire support sur la gestion de la
+    communauté et l’organisation des
+    bootcamps
+- 
+  staff: pierrick
+  job: >
+    Project manager en charge des
+    opérations

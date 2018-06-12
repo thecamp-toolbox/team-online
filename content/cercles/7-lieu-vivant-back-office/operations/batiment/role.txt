@@ -1,0 +1,34 @@
+Prevnext: 
+
+----
+
+Title: Bâtiment
+
+----
+
+Lead: jean-marc
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: felix
+- 
+  staff: gilles

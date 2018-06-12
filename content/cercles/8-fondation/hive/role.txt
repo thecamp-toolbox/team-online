@@ -1,0 +1,42 @@
+Prevnext: 
+
+----
+
+Title: Hive
+
+----
+
+Lead: eric
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: sylvia
+  job: co-lead
+- 
+  staff: marc
+  job: Creative technologist
+- 
+  staff: djeff
+  job: Program designer et facilitateur
+- 
+  staff: tiphaine
+  job: Program manager

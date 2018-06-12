@@ -1,0 +1,11 @@
+title: Cercles
+pages: 
+  template: role
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  lead: 
+    label: Lead
+    type: user 

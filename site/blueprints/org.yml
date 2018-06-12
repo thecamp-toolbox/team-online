@@ -1,0 +1,19 @@
+title: Organisation
+pages: false
+files: false
+fields:
+  prevnext: prevnext
+  title:
+    label: Nom
+    type:  text
+    width: 1/2
+  website: 
+    label: Website 
+    type: url 
+    width: 1/2
+  text: 
+    label: Mission
+    type: textarea
+
+
+  

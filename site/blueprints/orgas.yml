@@ -1,0 +1,12 @@
+title: Organisations
+pages: 
+  template: org
+  hide: true
+files: false
+fields:
+  title:
+    label: Title
+    type:  text
+  mysubpagelist:
+    label: Liste
+    type:  subpagelist

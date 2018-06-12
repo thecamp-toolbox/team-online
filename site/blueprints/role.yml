@@ -1,0 +1,40 @@
+title: Rôle
+pages: 
+  template: role
+  hide: true
+files: false
+fields:
+  prevnext: prevnext
+  title:
+    label: Title
+    type:  text
+  lead: 
+    label: Lead 
+    type: user
+    default: false
+  but: 
+    label: But 
+    type: textarea
+  perimetre: 
+    label: Périmètre
+    type: textarea
+  text:
+    label: Redevabilités
+    type:  textarea
+  mysubpagelist:
+    label: Roles principaux
+    type:  subpagelist
+  people: 
+    label: Equipe
+    type: structure 
+    entry: >
+      {{staff}}
+    fields: 
+      staff:
+        label: Staff
+        type: user 
+        default: false 
+      job: 
+        label: Job 
+        type: text
+  

@@ -1,0 +1,32 @@
+Title: Lieu vivant back-office
+
+----
+
+Text: 
+
+1. Maintenir une haute qualité de service sur le périmètre, (“production“)
+2. Exploiter ou piloter l‘exploitation du périmètre (“production“)
+3. Contribuer aux analyses d‘évolution du périmètre (“assistance à maitrise d‘ouvrage“), afin d‘apporter expertise et vision transverse 4 Réaliser ou contribuer à la réalisation des projets d‘évolutions sur le périmètre (“projets / MOE“)
+5. Garantir la pérennité et l‘évolutivité du périmètre
+6. Optimiser la performance économique et environnementale du périmètre
+7. Assister les program managers sur l‘optimisation de leurs programmes (dont le chiffrage)
+8. Proposer à l‘équipe des innovations relatives au périmètre
+
+----
+
+Lead: benjamin
+
+----
+
+But: Nous fournissons des services et des infrastructures de qualité aux campers, en fonction de leur lien avec thecamp, et aux staffs, en lien avec leur activité.
+
+----
+
+Perimetre: 
+
+- Services aux personnes : restauration, propreté, hébergement,...
+- Services technologiques
+à destination des campers et des staffs : outils collaborateurs, outils métier, web,...
+- Optimisation de capacité du campus
+- Infrastructure “campus“ : bâtiment, mobilier, électricité,...
+- Infrastructure technique : audiovisuel, réseau, serveurs,... ∙ Sécurité des biens et des personnes

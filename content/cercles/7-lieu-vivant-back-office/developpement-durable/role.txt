@@ -1,0 +1,32 @@
+Prevnext: 
+
+----
+
+Title: Développement durable
+
+----
+
+Lead: nolwen
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: pierre

@@ -1,0 +1,32 @@
+Prevnext: 
+
+----
+
+Title: Capacity planning
+
+----
+
+Lead: benedicte
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: lisa

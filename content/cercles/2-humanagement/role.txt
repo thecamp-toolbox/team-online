@@ -1,0 +1,29 @@
+Title: Humanagement
+
+----
+
+Text: 
+
+1. Définir et développer une culture thecamp autour de notre ADN
+2. Assurer la conformité juridique et sociale de thecamp
+3. Assurer la gestion administrative RH de l’équipe 4 Construire et développer une gestion des talents : identification, recrutement, rémunération, développement/formation,
+5. Animer la démarche d’amélioration continue et d’adaptation de l’organisation
+
+----
+
+Lead: guillaume
+
+----
+
+But: 
+
+Nous développons et animons une culture d’équipe humaine, pragmatique et évolutive, qui soutient le développement
+du projet et la bonne santé de l’équipe autour des valeurs de responsabilité, de bienveillance, de respect et d’optimisme de thecamp.
+
+----
+
+Perimetre: 
+
+- Humanagement = culture thecamp + efficience humaine et organisationnelle
+- Team thecamp + team élargie (Sodexo, Fablab, ...) sur certains thèmes
+- Outillage pour les leads et l’équipe vs centrralisation

@@ -1,0 +1,32 @@
+Prevnext: 
+
+----
+
+Title: Youth Camp Experience
+
+----
+
+Lead: stephanie
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: delphine
