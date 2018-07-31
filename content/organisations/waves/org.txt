@@ -2,7 +2,7 @@ Prevnext:
 
 ----
 
-Title: Village by CA
+Title: Waves
 
 ----
 
@@ -10,8 +10,8 @@ Website:
 
 ----
 
-Lead: sofiane
+Text: 
 
 ----
 
-Text: 
+Lead: marina

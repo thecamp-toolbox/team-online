@@ -28,10 +28,18 @@ c::set('routes', array(
 		if ($user = $site->user($uid)->exists()) {
 			return tpl::load(kirby()->roots()->templates() . DS . 'user.php', array('site' => $site, 'uid' => $uid), false);
 		}
+    }
+  ),
+  array(
+    'pattern' => 'staff',
+	'action'  => function () {
+		$kirby = kirby();
+		$site = $kirby->site();
+		return tpl::load(kirby()->roots()->templates() . DS . 'staff.php', array('site' => $site), false);
 
     }
   )
-));
+  ));
 
 /*
 

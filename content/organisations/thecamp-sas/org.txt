@@ -6,4 +6,12 @@ Title: thecamp SAS
 
 ----
 
-Website: 
+Website: http://thecamp.fr
+
+----
+
+Text: thecamp est une résidence  collaborative trans-culturelle, sectorielle, disciplinaire et générationnelle dédiée à la création d’impact social et environnemental. Elle accueille les individus et organisations publiques et privées qui veulent collaborer pour construire un futur plus désirables pour les humains et la planète.
+
+----
+
+Lead: denis

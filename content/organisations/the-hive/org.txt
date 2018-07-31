@@ -6,8 +6,12 @@ Title: The Hive
 
 ----
 
-Website: 
+Website: http://hivers.fr
 
 ----
 
-Text: 
+Text: The HIVE is a 6 months full-time residency for young artists and creators to launch disruptive expeditions for impact and explore the future. As part of thecamp’s ecosystem, they collaborate to think, write and prototype a more humane future, opening up new paths and contributing to universal issues. An opportunity for 40 young creatives per year to work on concrete projects every year.
+
+----
+
+Lead: eric

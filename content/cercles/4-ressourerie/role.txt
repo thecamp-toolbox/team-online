@@ -18,7 +18,7 @@ Lead: solene
 
 ----
 
-But: Nous développons, documentons, facilitons, diffusons et valorisons des modules, outils et contenus (MCO) pour l’écosystème, les projets et la programmatique de thecamp.
+But: Nous développons, documentons, facilitons, diffusons et valorisons des modules, contenus et outils (MCO) pour l’écosystème, les projets et la programmatique de thecamp.
 
 ----
 
@@ -30,3 +30,7 @@ Perimetre:
 - Développement d’une expertise métier facilitation méthodo (en soutien du humanagement)
 - Facilitation d’ateliers / modules VS PM (programmatique)
 - Point de contact fablab et des partenaires de Modules (facilitateur, etc.)
+
+----
+
+People: 

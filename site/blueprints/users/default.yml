@@ -14,6 +14,15 @@ fields:
       page: organisations
       fetch: children
     width: 1/2 
+  aka: 
+    label: AKA 
+    type: text 
+    width: 1/2
+  tags: 
+    label: Compétences clés
+    type: tags
+    index: all 
+    width: 1/2
   twitter: 
     label: Twitter
     type: text
