@@ -1,9 +1,14 @@
 <?php snippet('header') ?>
 
-<svg width="700" height="700"></svg>
+<svg width="700" height="700" style="background-color:'white'"></svg>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 
 <script>
+
+var containerWidth = +d3.select('.container-fluid').style('width').slice(0,-2);
+  console.log(containerWidth);
+
+var svg = d3.select("svg").attr("width", containerWidth).attr("height", containerWidth);
 
 var svg = d3.select("svg"),
     margin = 20,
@@ -12,7 +17,7 @@ var svg = d3.select("svg"),
 
 var color = d3.scaleLinear()
     .domain([-1, 5])
-    .range(["hsl(152,80%,80%)", "hsl(228,30%,40%)"])
+    .range(["rgb(255,255,255)", "hsl(228,30%,40%)"])
     .interpolate(d3.interpolateHcl);
 
 var pack = d3.pack()
