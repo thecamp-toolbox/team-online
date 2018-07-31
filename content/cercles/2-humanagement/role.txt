@@ -27,3 +27,17 @@ Perimetre:
 - Humanagement = culture thecamp + efficience humaine et organisationnelle
 - Team thecamp + team élargie (Sodexo, Fablab, ...) sur certains thèmes
 - Outillage pour les leads et l’équipe vs centrralisation
+
+----
+
+People: 
+
+- 
+  staff: laurence
+  job: 'Expert RH formation, santé & sécurité'
+- 
+  staff: valerie
+  job: 'Expert RH contrats & protection sociale'
+- 
+  staff: isabellej
+  job: 'Expert RH paye & administratif'

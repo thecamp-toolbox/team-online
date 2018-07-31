@@ -1,0 +1,39 @@
+Prevnext: 
+
+----
+
+Title: Finance & administration
+
+----
+
+Lead: denis
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: valerie
+  job: ""
+- 
+  staff: isabellej
+  job: ""
+- 
+  staff: laurence
+  job: ""

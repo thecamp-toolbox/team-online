@@ -1,0 +1,42 @@
+Prevnext: 
+
+----
+
+Title: Amélioration continue
+
+----
+
+Lead: guillaume
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: solene
+  job: Team amélioration continue
+- 
+  staff: marion
+  job: Team amélioration continue
+- 
+  staff: benoit
+  job: Team amélioration continue
+- 
+  staff: tart2000
+  job: Team amélioration continue

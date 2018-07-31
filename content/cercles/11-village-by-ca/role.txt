@@ -24,3 +24,14 @@ Perimetre:
 
 - Startups françaises et internationales
 - Intrapreneuriat
+
+----
+
+People: 
+
+- 
+  staff: laetitia
+  job: Design et animation des programmes
+- 
+  staff: pashu
+  job: Marketing et communication

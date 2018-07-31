@@ -1,0 +1,42 @@
+Prevnext: 
+
+----
+
+Title: Business development
+
+----
+
+Lead: 
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: mathieu
+  job: ""
+- 
+  staff: maelle
+  job: ""
+- 
+  staff: andre
+  job: ""
+- 
+  staff: marie-christine
+  job: ""

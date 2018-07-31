@@ -51,16 +51,23 @@
 		<?php endif ?>
 
 		<h2>Rôles</h2>
-		<?php $alead = page('cercles')->children()->filterBy('lead',$user) ?>
+		<?php $alead = page('cercles')->children()->filterBy('lead', $user) ?>
 		<?php snippet('user-roles', array('alead'=>$alead)) ?>
 
-		<div class="clearfix"></div>
-		<?php $alead2 = page('cercles')->children()->children()->filterBy('lead',$user) ?>
+		<?php $alead2 = page('cercles')->children()->children()->filterBy('lead', $user) ?>
 		<?php snippet('user-roles', array('alead'=>$alead2)) ?>
 
-		<div class="clearfix"></div>
-		<?php $alead3 = page('cercles')->children()->children()->children()->filterBy('lead',$user) ?>
+		<?php $alead3 = page('cercles')->children()->children()->children()->filterBy('lead', $user) ?>
 		<?php snippet('user-roles', array('alead'=>$alead3)) ?>
+
+		<?php $ateam = page('cercles')->children()->filterBy('people', '*=', $user) ?>
+		<?php snippet('user-job', array('ateam'=>$ateam, 'user'=>$user)) ?>
+
+		<?php $ateam2 = page('cercles')->children()->children()->filterBy('people', '*=', $user) ?>
+		<?php snippet('user-job', array('ateam'=>$ateam2, 'user'=>$user)) ?>		
+
+		<?php $ateam3 = page('cercles')->children()->children()->children()->filterBy('people', '*=', $user) ?>
+		<?php snippet('user-job', array('ateam'=>$ateam3, 'user'=>$user)) ?>
 
 	</div>
 

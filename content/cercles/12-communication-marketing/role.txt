@@ -37,3 +37,41 @@ Perimetre:
 - Média Outthere
 - RP & Influence
 - Communication évènementielle
+
+----
+
+People: 
+
+- 
+  staff: sarah
+  job: Lead marketing
+- 
+  staff: adelaide
+  job: Lead éditorial
+- 
+  staff: julieng
+  job: Lead Direction Artistique
+- 
+  staff: antoine
+  job: 'Lead audiovisuel & outthere'
+- 
+  staff: aristote
+  job: DA
+- 
+  staff: julienc
+  job: Graphisme
+- 
+  staff: julienb
+  job: 'Data & tools'
+- 
+  staff: manon
+  job: Leads entrants CRM
+- 
+  staff: adrien
+  job: Vidéo / photo
+- 
+  staff: walid
+  job: 'Sound design & audio'
+- 
+  staff: anais
+  job: PR / RS

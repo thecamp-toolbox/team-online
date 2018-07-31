@@ -16,8 +16,8 @@
 	<?php if ($r->hasChildren()) : ?>
 		<div class="row">
 			<?php foreach ($r->children() as $role) : ?>
-				<div class="col mt-3 mb-1">
-					<div class="card">
+				<div class="col mt-3">
+					<div class="card mb-0">
 						<?php snippet('role-card', array('r'=>$role, 'site'=>$site)) ?>
 					</div>
 				</div>

@@ -30,13 +30,13 @@ People:
 
 - 
   staff: tart2000
-  job: module designer
+  job: Module designer
 - 
   staff: guillaume
-  job: module designer
+  job: Module designer
 - 
   staff: pierrick
-  job: module designer
+  job: Module designer
 - 
   staff: julie
-  job: module designer
+  job: Module designer

@@ -31,3 +31,26 @@ Dans un premier temps en année 1, le périmètre concernera :
 - Les parties prenantes stratégiques : partenaires fondateurs, actionnaires, grands mécènes à venir pour la fondation et impulsion board
 - Les parties prenantes opérationnels contribuant de façon régulière et encadré à la mise en œuvre de la stratégie de thecamp : experts et intervenants, signataires de conventions, expérimentateurs, influenceurs, mentors, clients et résidents.
 - L’équipe de thecamp
+
+----
+
+People: 
+
+- 
+  staff: andre
+  job: 'Chargé de mission - partenariats internationaux'
+- 
+  staff: stephanie
+  job: Animation influenceurs
+- 
+  staff: sylvia
+  job: Animation acteurs culturels
+- 
+  staff: sarah
+  job: Responsable supports et outils
+- 
+  staff: julie
+  job: Recherche experts et intervenants
+- 
+  staff: marie-christine
+  job: Animation secteur public

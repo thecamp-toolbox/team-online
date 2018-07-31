@@ -31,3 +31,6 @@ People:
 - 
   staff: tart2000
   job: Albums de veille
+- 
+  staff: laetitia
+  job: Créatrice de contenus
