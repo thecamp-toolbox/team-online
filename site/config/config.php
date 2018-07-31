@@ -36,7 +36,14 @@ c::set('routes', array(
 		$kirby = kirby();
 		$site = $kirby->site();
 		return tpl::load(kirby()->roots()->templates() . DS . 'staff.php', array('site' => $site), false);
-
+    }
+  ),
+  array(
+    'pattern' => 'api',
+	'action'  => function () {
+		$kirby = kirby();
+		$site = $kirby->site();
+		return tpl::load(kirby()->roots()->templates() . DS . 'api.php', array('site' => $site), false);
     }
   )
   ));

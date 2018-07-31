@@ -2,7 +2,7 @@
 header('Content-type: application/json; charset=utf-8');
 
 //this is the magic command which grabs all data from pages. If You wanna grab specific page articles, look at the base example mentioned above
-$data = $page->siblings();
+$data = page('cercles')->children();
 
 $json = array();
 

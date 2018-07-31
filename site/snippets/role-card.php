@@ -7,10 +7,7 @@
 <?php if ($r->lead() != '') : ?>
 	<?php $lead = $r->lead() ?>
 	<?php $lead = $site->user($lead) ?>
-	<i class="fa fa-user"></i> lead : 
-	<a href="<?php echo $site->url().'/staff/'.$site->user($lead)->username() ?>">
-		<?= $site->user($lead)->firstName().' '.$site->user($lead)->lastName() ?>
-	</a>
+	<?php snippet('user-mini', array('theuser'=>$lead, 'user'=>$user, 'lead'=>$lead)) ?>
 <?php endif ?>
 
 <?php if ($r->hasChildren()) : ?>
@@ -35,11 +32,8 @@
 		<?php $staff = $r->people() ?>
 		<?php foreach ($staff->toStructure() as $user) : ?>
 			<?php $theuser = $site->user($user->staff()) ?>
-
-				<?php if ($user->job() != '') : ?>
-					<?= $user->job() ?> - 
-				<?php endif ?>
-				<?php snippet('user-mini', array('theuser'=>$theuser)) ?>
+			<?php $job = $user->job() ?>
+			<?php snippet('user-mini', array('theuser'=>$theuser, 'job'=>$job, 'lead'=>$lead)) ?>
 
 		<?php endforeach ?>
 <?php endif ?>
