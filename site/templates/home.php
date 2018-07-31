@@ -23,11 +23,6 @@
 		</ul>
 	</div>
 	<div class="col-md-8 p-3">
-		<h2>
-			<a href="/staff">
-				Staff
-			</a>
-		</h2>
 		<div class="row">
 			<?php foreach ($site->users()->sortBy('firstName') as $user) : ?>
 				<div class="col-2 user">

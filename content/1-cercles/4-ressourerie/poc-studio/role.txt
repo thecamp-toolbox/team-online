@@ -31,3 +31,15 @@ Mysubpagelist:
 ----
 
 People: 
+
+- 
+  staff: julienb
+  job: 'POC dev & VR'
+- 
+  staff: ingrid
+  job: >
+    Réflexion sur le modèle de
+    participation
+- 
+  staff: pierrick
+  job: Gestion projet et documentation

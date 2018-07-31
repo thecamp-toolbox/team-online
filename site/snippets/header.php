@@ -21,4 +21,30 @@
 </head>
 <body>
 
-	<div class="container-fluid">
+  <nav class="navbar navbar-expand-lg navbar-light mb-3 ">
+    <a class="navbar-brand" href="<?= $site->url() ?>">
+       <img src="<?= $site->url() ?>/assets/images/galet.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+      <?= $site->title() ?>  
+     </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+
+        <li class="nav-item">
+          <a class="nav-link" href="<?= $site->url() ?>/staff">Staff</a>
+        </li>
+
+        <?php foreach ($pages->visible() as $p) : ?>
+          <li class="nav-item <?php e($p->isOpen(),'active') ?>">
+            <a class="nav-link" href="<?= $p->url() ?>"><?= $p->title() ?></a>
+          </li>
+        <?php endforeach ?>
+
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid">

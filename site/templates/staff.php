@@ -1,8 +1,9 @@
-<?php snippet('header') ?>
+<?php $pages = $site->pages() ?>
+<?php snippet('header', array('pages'=>$pages, 'site'=>$site)) ?>
 
 <?php $staff = $site->users()->sortBy('firstName') ?>
 
-<h2>Staff (<?= $staff->count() ?>)</h2>
+<h5 class="mb-3">Staff (<?= $staff->count() ?>)</h5>
 
 <div class="row">
 	<?php foreach ($staff as $user) : ?>
