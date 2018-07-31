@@ -1,0 +1,36 @@
+Prevnext: 
+
+----
+
+Title: Développement technique
+
+----
+
+Lead: julienl
+
+----
+
+But: Développement de solutions techniques
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: nicolas
+  job: développeur
+- 
+  staff: benjaminp
+  job: Intégration

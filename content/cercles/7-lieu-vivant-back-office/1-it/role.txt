@@ -1,0 +1,39 @@
+Prevnext: 
+
+----
+
+Title: IT
+
+----
+
+Lead: benjamin
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: marion
+  job: Product owner (fonctionnel)
+- 
+  staff: ousmane
+  job: Product owner (fonctionnel)
+- 
+  staff: etienne
+  job: Exploitation et support

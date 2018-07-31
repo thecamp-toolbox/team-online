@@ -1,0 +1,33 @@
+Prevnext: 
+
+----
+
+Title: Diffusion et valorisation
+
+----
+
+Lead: julieg
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: tart2000
+  job: Design outils

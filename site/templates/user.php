@@ -47,25 +47,20 @@
 	<div class="col-6 p-3">
 		<?php if ($user->text() != '') : ?>
 			<h2>Bio</h2>
-			<?= $user->text() ?>
+			<p><?= $user->text() ?></p>
 		<?php endif ?>
 
 		<h2>Rôles</h2>
 		<?php $alead = page('cercles')->children()->filterBy('lead',$user) ?>
-		<?php if ($alead != '') : ?>
-			<?php foreach ($alead as $o) : ?>
-				<i class="fa fa-user"></i> Lead <a href="<?= $o->url() ?>"><?= $o->title() ?></a>
-			<?php endforeach ?>
-		<?php endif ?>
+		<?php snippet('user-roles', array('alead'=>$alead)) ?>
 
 		<div class="clearfix"></div>
 		<?php $alead2 = page('cercles')->children()->children()->filterBy('lead',$user) ?>
-		<?php if ($alead2 != '') : ?>
-			<?php foreach ($alead2 as $o) : ?>
-				<a href="<?= $o->parent()->url() ?>"><?= $o->parent()->title() ?></a> →
-				<i class="fa fa-user"></i> Lead <a href="<?= $o->url() ?>"><?= $o->title() ?></a>
-			<?php endforeach ?>
-		<?php endif ?>
+		<?php snippet('user-roles', array('alead'=>$alead2)) ?>
+
+		<div class="clearfix"></div>
+		<?php $alead3 = page('cercles')->children()->children()->children()->filterBy('lead',$user) ?>
+		<?php snippet('user-roles', array('alead'=>$alead3)) ?>
 
 	</div>
 

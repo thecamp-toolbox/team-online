@@ -6,7 +6,7 @@ Title: Hive
 
 ----
 
-Lead: eric
+Lead: sylvia
 
 ----
 
@@ -29,7 +29,7 @@ Mysubpagelist:
 People: 
 
 - 
-  staff: sylvia
+  staff: eric
   job: co-lead
 - 
   staff: marc

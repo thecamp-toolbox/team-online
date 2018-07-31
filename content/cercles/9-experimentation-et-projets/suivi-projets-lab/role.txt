@@ -1,0 +1,36 @@
+Prevnext: 
+
+----
+
+Title: Suivi projets lab
+
+----
+
+Lead: benoit
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: yasir
+  job: Gestion projet
+- 
+  staff: fabien
+  job: Gestion projet

@@ -2,11 +2,11 @@ Prevnext:
 
 ----
 
-Title: IT
+Title: Création de contenu
 
 ----
 
-Lead: benjamin
+Lead: julieg
 
 ----
 
@@ -27,3 +27,7 @@ Mysubpagelist:
 ----
 
 People: 
+
+- 
+  staff: tart2000
+  job: Albums de veille

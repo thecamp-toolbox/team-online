@@ -34,3 +34,14 @@ Perimetre:
 - Projets territoriaux Lab 
 - Projets développement durable campus
 - Expérimentations sur le campus par des startups
+
+----
+
+People: 
+
+- 
+  staff: tart2000
+  job: Prototypage de projets
+- 
+  staff: jean-claude
+  job: Projets européens

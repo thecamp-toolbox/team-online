@@ -1,0 +1,51 @@
+Prevnext: 
+
+----
+
+Title: Program management - coordination
+
+----
+
+Lead: julie
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: tamzin
+  job: Program manager
+- 
+  staff: carolyn
+  job: Program manager
+- 
+  staff: emmanuelle
+  job: Program manager
+- 
+  staff: marie-christine
+  job: Program manager
+- 
+  staff: lisa
+  job: Program manager
+- 
+  staff: melanie
+  job: Program manager
+- 
+  staff: eva
+  job: Program manager

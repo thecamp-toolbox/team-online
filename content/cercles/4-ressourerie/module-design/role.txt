@@ -1,0 +1,42 @@
+Prevnext: 
+
+----
+
+Title: Module design
+
+----
+
+Lead: solene
+
+----
+
+But: Conception de nouveaux modules pour la Module Library
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: tart2000
+  job: module designer
+- 
+  staff: guillaume
+  job: module designer
+- 
+  staff: pierrick
+  job: module designer
+- 
+  staff: julie
+  job: module designer

@@ -5,9 +5,16 @@
 	min-width: 180px;
 }
 .circle.lead {
-  border: solid blue 6px;
+  border: solid blue 3px;
 }
-.card-header {
+
+.card-header>h4>a {
+  color: black;
+}
+.border-dark>.card-header {
+  border-color: black;
+}
+.card-footer {
   font-size: 0.85rem;
   padding: .25rem .5rem;
   color: #8e8e8e;

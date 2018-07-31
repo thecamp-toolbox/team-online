@@ -1,0 +1,33 @@
+Prevnext: 
+
+----
+
+Title: Animation du lieu
+
+----
+
+Lead: manon
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: walid
+  job: support animation

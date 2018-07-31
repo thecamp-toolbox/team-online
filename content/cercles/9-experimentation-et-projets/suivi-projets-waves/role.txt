@@ -2,11 +2,11 @@ Prevnext:
 
 ----
 
-Title: Administration de l'association
+Title: Suivi projets Waves
 
 ----
 
-Lead: pauline
+Lead: pierrick
 
 ----
 

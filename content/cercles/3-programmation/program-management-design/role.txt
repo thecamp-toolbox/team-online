@@ -1,0 +1,39 @@
+Prevnext: 
+
+----
+
+Title: Program management - design
+
+----
+
+Lead: julie
+
+----
+
+But: 
+
+----
+
+Perimetre: 
+
+----
+
+Text: 
+
+----
+
+Mysubpagelist: 
+
+----
+
+People: 
+
+- 
+  staff: francoisr
+  job: Program manager
+- 
+  staff: solene
+  job: Program manager
+- 
+  staff: corinne
+  job: Program manager

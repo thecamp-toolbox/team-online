@@ -1,5 +1,5 @@
 <div class="media mb-3">
-  <?= snippet('user-avatar', array('user'=>$theuser, 'mini'=>true)) ?>
+  <?= snippet('user-avatar', array('user'=>$theuser, 'lead'=>$lead, 'mini'=>true)) ?>
   <div class="media-body pl-2">
     <h5 class="mt-0 mb-0">
     	<a href="<?php echo $site->url().'/staff/'.$theuser->username() ?>">
@@ -10,7 +10,7 @@
 		<?= $job ?>
 	<?php endif ?>
 	<?php if ($theuser->username() == $lead) : ?>
-		<i class="fa fa-user"></i> lead
+		Lead
 	<?php endif ?>
   </div>
 </div>

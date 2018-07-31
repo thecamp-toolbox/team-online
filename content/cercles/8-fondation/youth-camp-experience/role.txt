@@ -30,3 +30,13 @@ People:
 
 - 
   staff: delphine
+  job: Gestion des programmes
+- 
+  staff: pauline
+  job: "Administration de l'association"
+- 
+  staff: emmanuelle
+  job: Coordination des projets
+- 
+  staff: amandine
+  job: Gestion des programmes

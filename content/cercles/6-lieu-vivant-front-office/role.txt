@@ -23,3 +23,14 @@ Perimetre:
 
 - Expérience avant-pendant- après
 - Tout ce qui crée l’expérience transverse à thecamp : accueil, scénographie du lieu, activités, animations, rites...
+
+----
+
+People: 
+
+- 
+  staff: audrey
+  job: Suivi et programmation contenu
+- 
+  staff: manon
+  job: Suivi et programmation quotidienne
