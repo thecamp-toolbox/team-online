@@ -8,10 +8,10 @@
 var containerWidth = +d3.select('.container-fluid').style('width').slice(0,-2);
   console.log(containerWidth);
 
-var svg = d3.select("svg").attr("width", containerWidth).attr("height", containerWidth);
+var svg = d3.select("svg").attr("width", containerWidth-20).attr("height", containerWidth);
 
 var svg = d3.select("svg"),
-    margin = 20,
+    margin = 10,
     diameter = +svg.attr("width"),
     g = svg.append("g").attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
