@@ -1,8 +1,7 @@
 <?php
 header('Content-type: application/json; charset=utf-8');
 
-
-function childrenRecursiveContent($data) {
+function childrenRecursiveContent($data, $site) {
 
 $json = array();
 
@@ -12,41 +11,67 @@ $json['params']  = array();
 
 $childs = $data->children();
 
+
 $i = 0;
 
   foreach($childs as $key => $article) {
 
     $images = array();
 
-    foreach($article->images() as $image) {
-
-      //this is Bastians snippet about gathering image data
-      $images[] = array(
-        'url'    => $image->url(),
-        'width'  => $image->width(),
-        'height' => $image->height(),
-        'thumb' => thumb($image, array('width' => 290, 'height' => 290, 'crop' => true))->url()
-      );
-    }
-
     $json['children'][$i] = array(
       'name' => (string)$article->title(),
       'size' => '200',
-      'text'  => (string)$article->text(),
-      'images'  => $images
+      'text'  => (string)$article->text()
     );
 
+
     $j = 0;
+
     foreach ($article->children() as $childKey => $child) {
 
-        $json['children'][$i]["children"][$j] = childrenRecursiveContent($article);
+        $json['children'][$i]["children"][$j] = childrenRecursiveContent($article, $site);
         ++$j;
 
+
+          $leadName = getLeadNameFromCircle($article);
+          $avatar = getAvatarUrlFromUser($leadName, $site);
+
+          if($avatar){
+
+              $json['children'][$i]["children"][$j] = array(
+                'name' => $leadName,
+                'size' => '100',
+                'text'  => $leadName,
+                'images'  => $avatar->url(),
+              );
+
+              ++$j;
+          }
     }
 
+    if(empty($json['children'][$i]["children"])){
+
+        $leadName = getLeadNameFromCircle($article);
+        $avatar = getAvatarUrlFromUser($leadName, $site);
+
+          if($avatar){
+
+              $json['children'][$i]["children"][] = array(
+                'name' => $leadName,
+                'size' => '100',
+                'text'  => $leadName,
+                'images'  => $avatar->url(),
+              );
+          }
+    }
+
+
     // this cleans up JSONS code so there is no empty entries inside objects
-    $cleanData = array_filter($json['children'][$i]);
-    $json['children'][$i] = $cleanData;
+
+    if(!empty($json['children'][$i])){
+          $cleanData = array_filter($json['children'][$i]);
+           $json['children'][$i] = $cleanData;
+    }
 
     $foo = $json['params'];
 
@@ -65,7 +90,6 @@ $i = 0;
     ++$i;
   }
 
-
   return $json;
 
 }
@@ -75,8 +99,7 @@ $i = 0;
 $data = page('cercles');
 
 
-$json = childrenRecursiveContent($data);
-
+$json = childrenRecursiveContent($data, $site);
 
 echo json_encode($json);
 ?>
