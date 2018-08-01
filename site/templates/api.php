@@ -18,10 +18,11 @@ function childrenRecursiveContent($data, $site) {
   if($niceName){
      
      $json['children'][$i]["name"] = $niceName;
+     $json['children'][$i]["username"] = $leadName;
      $json['children'][$i]["text"] = $niceName;
      $json['children'][$i]["size"] = 50;
 
-     if($avatar) $json['children'][$i]["images"] = $avatar->url();
+     if($avatar) $json['children'][$i]["image"] = $avatar->url();
 
      ++$i;
   }
@@ -36,17 +37,18 @@ function childrenRecursiveContent($data, $site) {
       $niceName = getNiceNameFromUser($people["name"], $site);
 
       $json['children'][$i]["name"] = $niceName;
+      $json['children'][$i]["username"] = $people["name"];
       $json['children'][$i]["text"] = $people["job"];
       $json['children'][$i]["size"] = 25;
 
-      if($avatar) $json['children'][$i]["images"] = $avatar->url();
+      if($avatar) $json['children'][$i]["image"] = $avatar->url();
 
       ++$i;
     }
 
   }
 
-  //Getting child circles
+  //Adding circle childs
   $childs = $data->children();
   foreach($childs as $key => $article) {
 
