@@ -4,6 +4,9 @@
 .col.user {
 	min-width: 180px;
 }
+.col-2.user {
+  min-width: 180px;
+}
 .circle.lead {
   border: solid blue 3px;
 }
