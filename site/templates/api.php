@@ -1,70 +1,61 @@
 <?php
 header('Content-type: application/json; charset=utf-8');
 
+function childrenRecursiveContent($data, $site) {
 
-function childrenRecursiveContent($data) {
+  $json = array();
 
-$json = array();
+  $json['name']  = (string) $data->title();
+  $json['text']  = (string)$data->text();
+  $json['size']  = 100;
 
-$json['name']  = (string) $data->title();
-$json['children']  = array();
-$json['params']  = array();
+  $i = 0;
 
-$childs = $data->children();
+  //Adding circle leader
+  $leadName = getLeadNameFromCircle($data);
+  $niceName = getNiceNameFromUser($leadName, $site);
+  $avatar = getAvatarUrlFromUser($leadName, $site);
+  if($niceName){
+     
+     $json['children'][$i]["name"] = $niceName;
+     $json['children'][$i]["username"] = $leadName;
+     $json['children'][$i]["text"] = $niceName;
+     $json['children'][$i]["size"] = 50;
 
-$i = 0;
+     if($avatar) $json['children'][$i]["image"] = $avatar->url();
 
+     ++$i;
+  }
+
+  //Adding circle staff
+  $peopleCircle = getPeopleFromCircle($data);
+
+  foreach ($peopleCircle as $people) {
+
+    if($people["name"]){
+      $avatar = getAvatarUrlFromUser($people["name"], $site);
+      $niceName = getNiceNameFromUser($people["name"], $site);
+
+      $json['children'][$i]["name"] = $niceName;
+      $json['children'][$i]["username"] = $people["name"];
+      $json['children'][$i]["text"] = $people["job"];
+      $json['children'][$i]["size"] = 25;
+
+      if($avatar) $json['children'][$i]["image"] = $avatar->url();
+
+      ++$i;
+    }
+
+  }
+
+  //Adding circle childs
+  $childs = $data->children();
   foreach($childs as $key => $article) {
 
-    $images = array();
-
-    foreach($article->images() as $image) {
-
-      //this is Bastians snippet about gathering image data
-      $images[] = array(
-        'url'    => $image->url(),
-        'width'  => $image->width(),
-        'height' => $image->height(),
-        'thumb' => thumb($image, array('width' => 290, 'height' => 290, 'crop' => true))->url()
-      );
-    }
-
-    $json['children'][$i] = array(
-      'name' => (string)$article->title(),
-      'size' => '200',
-      'text'  => (string)$article->text(),
-      'images'  => $images
-    );
-
-    $j = 0;
-    foreach ($article->children() as $childKey => $child) {
-
-        $json['children'][$i]["children"][$j] = childrenRecursiveContent($article);
-        ++$j;
-
-    }
-
-    // this cleans up JSONS code so there is no empty entries inside objects
-    $cleanData = array_filter($json['children'][$i]);
-    $json['children'][$i] = $cleanData;
-
-    $foo = $json['params'];
-
-    //just example of boolean. in blueprints its type: checkboxes
-    if ((string)$article->adress()) { 
-        $foo['adress'] = true;
-    }
-
-  //example of string as param. in blueprints its type: number
-  if ((string)$article->time()) {
-        $foo['time'] = (string)$article->time();
-    }
-
-    $json['params'] = (object)$foo;
+    $json['children'][$i] = childrenRecursiveContent($article, $site);
 
     ++$i;
   }
-
 
   return $json;
 
@@ -74,9 +65,7 @@ $i = 0;
 //this is the magic command which grabs all data from pages. If You wanna grab specific page articles, look at the base example mentioned above
 $data = page('cercles');
 
-
-$json = childrenRecursiveContent($data);
-
+$json = childrenRecursiveContent($data, $site);
 
 echo json_encode($json);
 ?>

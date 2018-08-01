@@ -9,6 +9,8 @@ var containerWidth = +d3.select('.container-fluid').style('width').slice(0,-2);
   console.log(containerWidth);
 
 var svg = d3.select("svg").attr("width", containerWidth-20).attr("height", containerWidth);
+var defs = svg.append('defs');
+
 
 var svg = d3.select("svg"),
     margin = 10,
@@ -35,11 +37,25 @@ d3.json('../../api', function(error, root) {
       nodes = pack(root).descendants(),
       view;
 
+
+defs.selectAll('pattern').data(nodes).enter().append('pattern')
+            .attr('id', function(d) { return d.data.username; })
+            .attr('patternContentUnits', 'objectBoundingBox')
+            .attr('width', '1')
+            .attr('height', '1')
+            .append('image')
+            .attr('xlink:href', function(d) { return d.data.image; })
+            .attr('width', '1')
+            .attr('height', '1')
+            .attr("preserveAspectRatio", "xMinYMin slice");
+
+
+
   var circle = g.selectAll("circle")
     .data(nodes)
     .enter().append("circle")
       .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
-      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+      .attr("fill", function(d) { return d.children ? color(d.depth) : "url(#"+d.data.username+")"; })
       .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
   var text = g.selectAll("text")
@@ -50,10 +66,12 @@ d3.json('../../api', function(error, root) {
       .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
       .text(function(d) { return d.data.name; });
 
+
   var node = g.selectAll("circle,text");
 
   svg
       .style("background", color(-1))
+      .style("margin-top", "-325px")
       .on("click", function() { zoom(root); });
 
   zoomTo([root.x, root.y, root.r * 2 + margin]);
@@ -76,7 +94,7 @@ d3.json('../../api', function(error, root) {
   }
 
   function zoomTo(v) {
-    var k = diameter / v[2]; view = v;
+    var k = diameter / v[2] / 2; view = v;
     node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
     circle.attr("r", function(d) { return d.r * k; });
   }
