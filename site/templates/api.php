@@ -22,7 +22,9 @@ function childrenRecursiveContent($data, $site) {
      $json['children'][$i]["text"] = $niceName;
      $json['children'][$i]["size"] = 50;
 
-     if($avatar) $json['children'][$i]["image"] = $avatar->url();
+     if($avatar) $json['children'][$i]["image"] = $avatar->crop(75,75)->url();
+
+     else $json['children'][$i]["image"] = $site->url().'/assets/images/avatar.jpeg';
 
      ++$i;
   }
@@ -41,7 +43,9 @@ function childrenRecursiveContent($data, $site) {
       $json['children'][$i]["text"] = $people["job"];
       $json['children'][$i]["size"] = 25;
 
-      if($avatar) $json['children'][$i]["image"] = $avatar->url();
+      if($avatar) $json['children'][$i]["image"] = $avatar->crop(75,75)->url();
+
+      else $json['children'][$i]["image"] = $site->url().'/assets/images/avatar.jpeg';
 
       ++$i;
     }
