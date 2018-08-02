@@ -40,3 +40,6 @@ People:
 - 
   staff: julie
   job: Module designer
+- 
+  staff: francoisr
+  job: Module designer

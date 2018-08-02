@@ -1,4 +1,4 @@
-<?php snippet('header', array('site'=>$site)) ?>
+<?php snippet('header', array('site'=>$site, 'pages'=>$pages)) ?>
 
 <?php $user = $site->user($uid) ?>
 <div class="row">

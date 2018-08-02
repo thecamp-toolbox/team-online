@@ -25,8 +25,9 @@ c::set('routes', array(
 	'action'  => function ($uid) {
 		$kirby = kirby();
 		$site = $kirby->site();
+		$pages = $site->pages();
 		if ($user = $site->user($uid)->exists()) {
-			return tpl::load(kirby()->roots()->templates() . DS . 'user.php', array('site' => $site, 'uid' => $uid), false);
+			return tpl::load(kirby()->roots()->templates() . DS . 'user.php', array('site' => $site, 'uid' => $uid, 'pages'=>$pages), false);
 		}
     }
   ),
